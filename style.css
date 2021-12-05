@@ -774,7 +774,7 @@ object {
 
 .p-fv {
   height: 560px;
-  background-image: url(fv.jpg);
+  background-image: url(/asset/img/fv.jpg);
   background-size: cover;
   color: white;
 }
@@ -948,26 +948,13 @@ object {
   position: relative;
 }
 
+.p-about__inner {
+  position: relative;
+  z-index: 10;
+}
+
 .p-about__flex {
   display: flex;
-}
-
-.p-about__bgimg {
-  height: 145px;
-}
-
-.p-about__bgimg--about {
-  position: absolute;
-  top: 94px;
-  left: -55px;
-  z-index: 0;
-}
-
-.p-about__bgimg--message {
-  position: absolute;
-  top: 616px;
-  right: -38px;
-  z-index: 0;
 }
 
 .p-about__flex:last-child {
@@ -1005,6 +992,24 @@ object {
   width: 56.25%;
   position: relative;
   z-index: 10;
+}
+
+.p-about__bgimg {
+  height: 145px;
+}
+
+.p-about__bgimg--about {
+  position: absolute;
+  top: 94px;
+  left: -55px;
+  z-index: 0;
+}
+
+.p-about__bgimg--message {
+  position: absolute;
+  top: 616px;
+  right: -38px;
+  z-index: 0;
 }
 
 /*  ********** media query **********  */
@@ -1080,7 +1085,7 @@ object {
 .p-service {
   padding: 80px 0 98px 0;
   background-color: whitesmoke;
-  background-image: url(service-mask.png);
+  background-image: url(/asset/img/service-mask.png);
   background-size: cover;
 }
 
@@ -1264,7 +1269,7 @@ object {
   }
 
   .p-news__list {
-    display: block;
+    flex-direction: column;
   }
 
   .p-news__link--ttl {
@@ -1296,6 +1301,7 @@ object {
   position: absolute;
   bottom: 15px;
   left: 20px;
+  z-index: 30;
 }
 
 .p-contact__img {
