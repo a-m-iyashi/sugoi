@@ -432,7 +432,9 @@ object {
   border: none;
   display: block;
 }
-
+.f-main-orverFlow {
+  overflow-x: hidden;
+}
 /*--------------------------------------*
  * breakpoint media query
  *--------------------------------------*/
@@ -1029,7 +1031,7 @@ object {
 
   .p-about__bgimg--message {
     top: 510px;
-    right: 0;
+    right: -19px;
   }
 
   .p-about__card--left {
