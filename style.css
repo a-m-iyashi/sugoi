@@ -774,7 +774,7 @@ object {
 
 .p-fv {
   height: 560px;
-  background-image: url(/asset/img/fv.jpg);
+  background-image: url(fv.jpg);
   background-size: cover;
   color: white;
 }
@@ -1085,7 +1085,7 @@ object {
 .p-service {
   padding: 80px 0 98px 0;
   background-color: whitesmoke;
-  background-image: url(/asset/img/service-mask.png);
+  background-image: url(service-mask.png);
   background-size: cover;
 }
 
