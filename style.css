@@ -1020,7 +1020,7 @@ object {
 
   .p-about__bgimg {
     height: 100px;
-    overflow: hidden;
+    overflow-x: hidden;
   }
 
   .p-about__bgimg--about {
