@@ -1020,7 +1020,6 @@ object {
 
   .p-about__bgimg {
     height: 100px;
-    overflow-x: hidden;
   }
 
   .p-about__bgimg--about {
@@ -1030,7 +1029,7 @@ object {
 
   .p-about__bgimg--message {
     top: 510px;
-    right: -19px;
+    right: 0;
   }
 
   .p-about__card--left {
