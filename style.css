@@ -996,7 +996,6 @@ object {
 
 .p-about__bgimg {
   height: 145px;
-  overflow: hidden;
 }
 
 .p-about__bgimg--about {
@@ -1021,6 +1020,7 @@ object {
 
   .p-about__bgimg {
     height: 100px;
+    overflow: hidden;
   }
 
   .p-about__bgimg--about {
